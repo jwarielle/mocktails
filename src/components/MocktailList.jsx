@@ -7,7 +7,7 @@ function MocktailList(props) {
        <div className='mocktail-container'>
             <h2>{props.name}</h2>
             <p>{props.description}</p>
-            <img src={imgSrc} /> 
+            <img src={imgSrc}></img> 
         </div>
     );
 }

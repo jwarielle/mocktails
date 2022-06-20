@@ -8,6 +8,11 @@ function App() {
     let [drinks, setMocktails] = useState(mocktails);
 
     function filterMocktails(selectedMood) {
+        if(selectedMood === "all") {
+            setMocktails(mocktails);
+            return;
+        }
+
         let filteredDrinks = mocktails.filter(drink => {
             return drink.mood === selectedMood;
         })

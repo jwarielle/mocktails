@@ -5,7 +5,6 @@ function DropDown(props) {
 
     function updateSelection(event) {
         let value = event.target.value;
-        console.log(value);
         setSelection(value);
         props.onFilter(value);
     }
@@ -13,7 +12,7 @@ function DropDown(props) {
     return (
         <div>
             <select onChange={updateSelection} name="mocktails" id="mocktails">
-                <option name="all" value="Select your mood!">Select Your Mood</option>
+                <option name="all" value="all">Select Your Mood</option>
                 <option name="happy" value="happy">Happy</option>
                 <option name="angry" value="angry">Angry</option>
                 <option name="sad" value="sad">Sad</option>
