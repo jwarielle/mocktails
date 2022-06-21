@@ -1,13 +1,11 @@
 import React from 'react';
 
 function MocktailList(props) {
-    let imgSrc = "../../public/images/" + props.image;
-
     return (
        <div className='mocktail-container'>
-            <h2>{props.name}</h2>
+            <h1>{props.name}</h1>
+            <img src={props.image} />
             <p>{props.description}</p>
-            <img src={imgSrc}></img> 
         </div>
     );
 }

@@ -12,7 +12,7 @@ function DropDown(props) {
     return (
         <div>
             <select onChange={updateSelection} name="mocktails" id="mocktails">
-                <option name="all" value="all">Select Your Mood</option>
+                <option name="all" value="all">Select Your Mood!</option>
                 <option name="happy" value="happy">Happy</option>
                 <option name="angry" value="angry">Angry</option>
                 <option name="sad" value="sad">Sad</option>

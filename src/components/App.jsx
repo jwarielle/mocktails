@@ -22,6 +22,10 @@ function App() {
 
     return (<div>
         <Header />
+        <div className='intro-div'>
+            <h1>Welcome to Mocktails!</h1>
+            <p>Use the menu to find mocktails that match your mood.</p>
+        </div>
         <DropDown 
             onFilter = {filterMocktails}
         />

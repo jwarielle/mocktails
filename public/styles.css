@@ -11,6 +11,21 @@ Header {
     font-size: 300%;
 }
 
+.intro-div {
+    width: 50%;
+    margin: 75px auto 0;
+    text-align: center;
+    color: #3AB0FF;
+}
+
+.intro-div h1 {
+    font-size: 400%;
+}
+
+.intro-div p {
+    font-size: 200%;
+}
+
 select {
     display: block;
     margin: 50px auto 0;
@@ -26,4 +41,18 @@ select {
     background-color: #FFB562;
     padding: 20px;;
     color: white;
+    text-align: center;
+}
+
+.mocktail-container img {
+    height: 40%;
+    width: 40%;
+    border-radius: 50%;
+    border: white 4px solid;
+}
+
+.mocktail-container p {
+    width: 80%;
+    margin: 30px auto 0;
+    font-size: 125%;
 }
